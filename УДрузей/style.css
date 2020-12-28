@@ -1,0 +1,279 @@
+.submenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu li {
+    background-color: yellow;
+    position: relative;
+    left: -100px;
+    top: 30px;
+}
+
+body {
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYuV5qC67s1nWdgOZ7enCBCFDauLbgmRBvjQ&usqp=CAU );
+}
+
+video {
+    margin-left: 10px;
+    width: 600px;
+}
+
+.p {
+    margin-left: 5px;
+}
+
+.container {
+    border-radius: 10px;
+    width: 1174px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+button {
+    transition: 0.3s;
+    border-radius: 3px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(179, 255, 0);
+    color: rgb(0, 162, 184);
+}
+
+ul li:hover:not(.submenu) > .submenu {
+    visibility: visible;
+}
+
+button:hover {
+    background-color: rgb(126, 180, 0);
+    color: rgb(111, 238, 255);
+}
+
+.header {
+    height: 73px;
+    background: url("img/top.png") no-repeat;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+
+.logo {
+    font-size: 35px;
+    margin-top: 13px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0;
+    padding: 15px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.submenu {
+    visibility: hidden;
+    position: absolute;
+}
+
+.item:hover>.submenu {
+    visibility: visible;
+}
+
+.submenu ul li {
+    display: inline-block;
+}
+
+.item:not(:hover) > a {
+    color: rgb(92, 131, 0) ;
+}
+
+.menu li {
+    display: inline-flex;
+    margin-left: 10px;
+    margin-top: 0px;
+    height: 35px;
+    margin: 0px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.menu li:hover {
+    background-color: rgba(153, 205, 50, 0.85);
+    cursor: pointer;
+}
+
+a { 
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    position: absolute;
+    right: 80px;
+    top: 6.5px;
+    font-size: 25px;
+}
+
+.logo:first-letter {
+    background-color: white;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.leftBlock {
+    float: left;
+    width: 175px;
+}
+
+.block {
+    background-color: white;
+    padding: 10px;
+    color: rgb(32, 107, 106);
+    width: 155px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.blockImg {
+    cursor: pointer;
+    width: 178px;
+    transition: 0.5s;
+}
+
+.blockImg:hover {
+    opacity: 50%;
+}
+
+.block:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.content {
+    margin-left: 179px;
+    border: 2px solid rgb(222, 222, 222);
+}
+
+.content__header {
+    border-radius: 5px;
+    color: rgb(32, 107, 106);
+    background-color: rgb(222, 222, 222);
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.content__header:hover {
+    background-color: gray;
+    color: white;
+}
+
+.content__header2:hover {
+    background-color: gray;
+    color: white;
+}
+
+.head_avatar {
+    transition: 0.5s;
+    width: 643px;
+    padding: 5px;
+}
+
+.content__header2 {
+    color: rgb(32, 107, 106);
+    background-color: rgb(222, 222, 222);
+    margin: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 20px;
+    width: 624px;
+    transition: 0.5s;
+}
+
+.avatar {
+    margin: 5px;
+    margin-bottom: 20px;
+}
+
+.redact {
+    margin: 5px;
+    color: rgb(60, 132, 132);
+    margin-bottom: 20px;
+}
+
+.hr {
+    display: inline-block;
+    color: rgb(222, 222, 222);
+    width: 304px;
+}
+
+.hr2 {
+    display: inline-block;
+    color: rgb(222, 222, 222);
+    width: 653px;
+}
+
+.content__left {
+    width: 304px;
+    vertical-align: top;
+}
+
+.content__right {
+    color: rgb(32, 107, 106);
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+
+tr {
+    color: black;
+    margin-left: 100px;
+}
+
+
+
+.td2 {
+    display: block;
+    margin-left: 100px;
+    color: rgb(32, 107, 106);
+}
+
+.img {
+    margin: 5px;
+    width: 204px;
+}
+
+.os {
+    display: block;
+    background-color: gray;
+    color: rgb(0, 0, 165);
+    margin: 5px;
+    padding: 5px;
+    width: 634px;
+}
+
+.os:hover {
+    color: rgb(0, 0, 117);
+    
+}
+
+.img2 {
+    width: 635px;
+    margin-bottom: 0;
+}
+
+.© {
+    background-color: rgb(185, 185, 185);
+    text-align: center;
+    padding: 2px;
+    margin-left: 421.5px;
+    margin-right: 421.5px;
+}

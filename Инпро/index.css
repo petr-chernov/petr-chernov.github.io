@@ -1,0 +1,18 @@
+h1, p {
+    color: rgb(0, 0, 128);
+    text-align: center;
+}
+
+body {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+img {
+    border: 5px solid rgb(0, 0, 128);
+}
+
+img:last-child {
+    width: 30%;
+    border: 0 solid rgb(0, 0, 128);
+}

@@ -1,0 +1,178 @@
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.header {
+    height: 596px;
+    background-color: #87509c;
+    position: relative;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    top: 57px;
+    left: 211px;
+    width: 118px;
+    height: 37px;
+    background-image: url(img/logo.png);
+}
+
+nav {
+    position: absolute;
+    top: 60px;
+    right: 195px;
+    width: 416px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li a {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #643a79;
+    border-radius: 5px;
+}
+
+.title {
+    font-size: 45px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #f7f3ea;
+    text-align: center;
+    width: 906px;
+    margin: 239px auto 0;
+}
+
+.button {
+    margin: 54px auto;
+    width: 293px;
+    height: 70px;
+    background-color: #eb7d4b;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 5px black;
+    margin: 58px auto;
+}
+
+.services {
+    background-color: #17c2a4;
+    padding-top: 119px;
+    padding-bottom: 129px;
+}
+
+.services-title {
+    font-size: 40px;
+    line-height: 29px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-align: center;
+
+}
+
+hr {
+    width: 87px;
+    height: 4px;
+    opacity: 0.14;
+    background-color: #000000;
+    margin-top: 21px;
+    margin-bottom: 15px;
+}
+
+.services>p {
+    width: 603px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.services-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 78px;
+}
+
+.services-items section {
+    width: 197px;
+}
+
+.services-items section:not(:last-child) {
+    margin-right: 88px;
+}
+
+.items-title {
+    font-size: 24px;
+    line-height: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-top: 186px;
+    text-align: center;
+}
+
+.services-flag {
+    background: url(img/flag.png) center top / 120px no-repeat;
+}
+
+.services-pencil {
+    background: url(img/pencil.png) center top / 86px no-repeat;
+}
+
+.services-gear {
+    background: url(img/gear.png) center top / 159px no-repeat;
+}
+
+.services-rocket {
+    background: url(img/rocket.png) center top / 95px no-repeat;
+}
+
+.services-items p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    text-align: center;
+}
+

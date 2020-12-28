@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta neme='viewport' width='device-width'>
+    <title>УДрузей</title>
+    <link rel="stylesheet" href="style.css">
+    <script src='./index.js'></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Удрузей</div>
+            
+        </div>
+        <ul class="menu">
+            <li><a href="#site">сайт</a></li>
+            <li>
+                <a href="#friends">друзья</a>
+            </li>
+            <li><a href='#music'>музыка</a><div class="submenu"><ul><li class="item"><a href='#music'>Песня</a></li><li class="item"><a href='#audio2'>Клип песни</a></li><li class="item"><a href='#audio3'>Текст песни</a></li></ul></div></li>
+            <li><a href='mailto:zero00000petr@gmail.com'>помощь</a></li>
+        </ul>
+        <div class="main">
+            <div class="leftBlock">
+                <a href='#site' class='block'>
+                    Моя страница
+                </a>
+                <a href="#friends" class='block'>
+                    Мои друзья
+                </a>
+                <a href='#photo' class='block'>
+                    Мои фотографии
+                </a>
+                <a href="#music" class='block'>
+                    Мои песни
+                </a>
+                <a href='mailto:zero00000petr@gmail.com' class='block'>
+                    Помощь
+                </a>
+                <hr>
+                <a href="https://nts.su"><img class='blockImg' src='./img/reklama.jpg'></a>
+                <a href="https://ford.ru"><img class='blockImg' src='./img/reklama2.jpg'></a    >
+            </div>
+            <div class="content">
+                <div id='site' class="content__header">
+                    Avatar
+                </div>
+                <table>
+                    <tr>
+                        <td class="content__left">
+                            <div>
+                                <div class="avatar">
+                                    <img src="./img/avatar.jpg">
+                                </div>
+                                <div class="redact">
+                                    Редактировать страницу
+                                </div>
+                                <hr class="hr">
+                                <br>
+                                <div id='friends' class="content__header">
+                                    Друзья
+                                </div>
+                                <img class="hr" src="./img/frends.jpg" alt="friends">
+                            </div>
+                        </td>
+                        <td>
+                            <div class="content__right">
+                                <div class="head_avatar">
+                                    Avatar
+                                </div>
+                                <hr class="hr2">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            День рождения:<br>
+                                            Родной город:<br>
+                                            Семейное положение:<br>
+                                            Место работы:<br>
+                                            О себе:
+                                        </td>
+                                        <td class="td2">
+                                            08.12.2009<br>
+                                            Москва<br>
+                                            Ребёнок<br>
+                                            ZERO00000<br>
+                                            Хорошо живёт на свете пух...<br>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <div id="photo" class="content__header2">
+                                    Фотографии:
+                                </div>
+                                <img src="./img/gallery1.jpg" class="img">
+                                <img src="./img/gallery2.jpg" class="img">
+                                <img src="./img/gallery3.jpg" class="img">
+                                <div class="content__header2">
+                                    Записи
+                                </div>
+                                <div id='music' class='os'>
+                                    Песня
+                                </div>
+                                <audio src="./krylatye-kacheli.mp3" id='audio'></audio>
+                                <button onclick="music('play')">play<br>music</button>
+                                <button onclick="music('stop')">stop<br>music</button>
+                                <div id='audio2' class='os'>
+                                    Клип песни
+                                </div>
+                                <video poster="https://i.ytimg.com/vi/c_OKyGNCFeo/hqdefault.jpg?sqp=-oaymwEZCPYBEIoBSFXyq4qpAwsIARUAAIhCGAFwAQ==&rs=AOn4CLAeSXq9nU4nYtqi06fU6M5C59gjLw" id='video' src="./2020-11-20 23-00-24.mp4"></video>
+                                <br>
+                                <button onclick="vid('play')">play<br>video</button>
+                                <button onclick="vid('stop')">stop<br>video</button>
+                                <div id='audio3' class="os">
+                                    Текст песни
+                                </div>
+                                <p class="p">
+                                    Я не супер не супер не супер звезда<br>
+                                    Но зато у меня у меня есть друзья<br>
+                                    Друзья друзья друзьяаааа<br>
+                                    А у супер у супер у супер у супер у супер у супер звезды<br>
+                                    Нет друзей нет друзей нет друзей,<br> А только фанаты<br>
+                                    Фанааты фанааааты 
+                                </p>
+                                <div class='os'>
+                                    Оформление стены
+                                </div>
+                                <img class="img2" src="./img/stena1.jpg">
+                                <div class='os'>
+                                    Фотошоп
+                                </div>
+                                <img class="img2" src="./img/stena2.jpg">
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div title="Подробнее" class='©'><a href="http://m.copyright.ru/app/--%C2%A9-copyright/8177299/32/">Copyright © Пётр 2020 Все права защищены</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+elements {
+    display: block;
+    width: 170px;
+    height: 350px;
+    background-color: rgb(177, 131, 6);
+    transition: 1s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 50%;
+    background-color: rgb(95, 95, 95);
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    transition: 1s;
+}
+
+a:hover {
+    background-color: rgb(63, 63, 63);
+}
+
+img {
+    width: 55%;
+    margin-left: 22.5%;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 4px dotted black; /* Параметры границы */
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    margin: 5px;
+    text-align: center;
+}
+
+hhhh {
+    display: block;
+    margin-left: 18%;
+    padding: 10px;
+    width: 50%;
+    border-radius: 50%;
+    border: 4px dotted rgb(255, 255, 117);
+}
+
+iframe {
+    width: 170px;
+    height: 330px;
+}

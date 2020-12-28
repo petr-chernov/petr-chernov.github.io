@@ -1,0 +1,29 @@
+.header {
+    background-color: blue;
+    background: #cccccc;
+    padding: 10px;
+    text-align:center;
+}
+.footer {
+    background-color: brown;
+    width: 100%;
+    background: gray;
+    text-align:center;
+}
+.left, .right {
+    width: fit-content;
+    height: auto;
+    width: 100px;
+    background:#a3ee55;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.content {
+    margin: 0 100px;
+    background:rgb(109, 109, 109);
+    padding: 10px;
+}

@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    
+}
+
+.header {
+    border-radius: 0 0 10px 10px;
+    height: 75px;
+    background: rgb(245, 200, 0);
+}
+
+.header img {
+    display: inline;
+    width: 40px;
+    margin: 16px;
+    border-radius: 50%;
+}
+
+.header .text:first-letter {
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-right: 0.5px;
+    border-radius: 5px;   
+}
+
+.header .text {
+    display: inline-block;
+    font-size: 19px;
+    font-weight: bold;
+    position: relative;
+    top: -27.5px;
+    left: -5px;
+    font-family: sans-serif, auto;
+}
+
+.element {
+    display: block;
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgba(255, 255, 0, 0.651);
+    border-radius: 0 0 12px 12px;
+    margin-bottom: 8.5px;
+}
+
+.header .menu {
+    float: right;
+    position: relative;
+    top: 17px;
+    right: 17px;
+}
+
+.header .menu .item {
+    display: inline-block;
+    padding: 10px;
+    background-color: yellow;
+    border-radius: 5px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: rgb(105, 104, 0);
+    font-weight: bold;
+    font-family: sans-serif, auto;
+}
+
+.header .menu .item:hover {
+    background-color: rgba(255, 255, 0, 0.75);
+    color: rgba(92, 92, 0, 0.75);
+}
+
+@media (max-width: 800px) {
+    
+    .element {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    .element {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 408px) {
+    .header .menu .item:not(:last-child) {
+        display: none;
+    }
+}
+
+@media (max-width: 350px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media (max-width: 319px) {
+    * {
+        display: none;
+    }
+}

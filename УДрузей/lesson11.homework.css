@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+}
+
+.elements {
+    width: 1000px;
+    background-color: rgb(74, 126, 23);
+}
+
+.element__wid {
+    width: 50px;
+    background-color: lawngreen;
+}
+
+.element__del {
+    border-left: 2px solid black;
+    margin-left: -54px;
+    width: 48px;
+    background-color: lawngreen;
+}
+
+@media (max-width: 800px) {
+    .element__del {
+        display: none;
+    }
+
+    .element__wid {
+        width: 100px;
+    }
+}

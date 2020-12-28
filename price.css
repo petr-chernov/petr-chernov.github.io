@@ -1,0 +1,16 @@
+td {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    border: inset;
+}
+
+body {
+    background-color:rgb(142 178 174);
+    color:rgb(0 15 64);
+}
+
+p {
+    white-space: 'normal';
+    text-align: right;
+}
